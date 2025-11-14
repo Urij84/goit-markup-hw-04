@@ -314,6 +314,11 @@ button {
     gap: 24px;
 }
 
+.footer-social-list {
+    justify-content: flex-start;
+    gap: 16px;
+}
+
 .social-item {
     width: 40px;
     height: 40px;
@@ -332,7 +337,8 @@ button {
 
 .social-link:hover,
 .social-link:focus {
-    background-color: #31d0aa;
+    background-color: var(--ocean);
+    /* #404bbf */
 }
 
 .social-icon {
