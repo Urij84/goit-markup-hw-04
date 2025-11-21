@@ -1,36 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden">
-  <defs>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:none">
+  <!-- Strategy – antenna -->
+  <symbol id="icon-antenna" viewBox="0 0 64 64">
+    <rect x="8" y="8" width="48" height="48" rx="12" ry="12" fill="none"/>
+    <circle cx="32" cy="22" r="6" class="feature-icon-accent"/>
+    <line x1="32" y1="28" x2="22" y2="46" />
+    <line x1="32" y1="28" x2="42" y2="46" />
+    <line x1="18" y1="46" x2="46" y2="46" />
+  </symbol>
 
-    <!-- ANTENNA -->
-    <symbol id="icon-antenna" viewBox="0 0 64 64">
-      <g clip-path="url(#a)">
-        <path d="M19.333 21.333c0-.987.194-1.962.571-2.875a7.667 7.667 0 0 1 4.226-4.226 7.667 7.667 0 0 1 5.75 0 7.667 7.667 0 0 1 4.227 4.226 7.718 7.718 0 0 1 .571 2.875m-15.345 2.905a11.54 11.54 0 0 1 0-5.809 11.537 11.537 0 0 1 2.253-4.441 11.54 11.54 0 0 1 4.441-2.253 11.54 11.54 0 0 1 5.809 0 11.537 11.537 0 0 1 4.441 2.253 11.54 11.54 0 0 1 2.253 4.441 11.54 11.54 0 0 1 0 5.81M16 17.333l-9.333 2" stroke="#2E2F42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M12.333 31.333a5.333 5.333 0 1 0 0-10.666 5.333 5.333 0 0 0 0 10.666Z" stroke="#2E2F42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M12.333 28v.667m32-9.334a11.54 11.54 0 0 1 0-5.809 11.537 11.537 0 0 1 2.253-4.441 11.54 11.54 0 0 1 4.441-2.253 11.54 11.54 0 0 1 5.81 0 11.537 11.537 0 0 1 4.44 2.253 11.54 11.54 0 0 1 2.254 4.441 11.54 11.54 0 0 1 0 5.81m-15.344-2.905c0-.987.194-1.962.57-2.875a7.667 7.667 0 0 1 4.227-4.226 7.667 7.667 0 0 1 5.75 0 7.667 7.667 0 0 1 4.226 4.226 7.718 7.718 0 0 1 .572 2.875m-1.239 3.333v-.666" stroke="#2E2F42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </g>
-      <defs><clipPath id="a"><path fill="#fff" d="M0 0h64v64H0z"/></clipPath></defs>
-    </symbol>
+  <!-- Punctuality – clock -->
+  <symbol id="icon-clock" viewBox="0 0 64 64">
+    <rect x="8" y="8" width="48" height="48" rx="12" ry="12" fill="none"/>
+    <circle cx="32" cy="32" r="14" />
+    <line x1="32" y1="32" x2="32" y2="22" />
+    <line x1="32" y1="32" x2="40" y2="36" />
+    <circle cx="32" cy="32" r="2" class="feature-icon-accent"/>
+  </symbol>
 
-    <!-- ASTRONAUT -->
-    <symbol id="icon-astronaut" viewBox="0 0 64 64">
-      <path d="M34 48.333h9.333a5.333 5.333 0 0 0 5.334-5.333v-10.2c0-.4 0-.8.067-1.187 0 0 0-.067-.067-.106-.32-1.04-1.533-4.573-5.2-4.573H20.533s-3.88-.107-5.266 4.573c0 0-.067.066-.067.106.067.387.067.787.067 1.187v10.2A5.333 5.333 0 0 0 20.6 48.333h9.4" stroke="#2E2F42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M32 48v3.333M34.667 54 32 57.333 29.333 54" stroke="#2E2F42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M43.333 26.333a11.333 11.333 0 1 1-22.666 0 11.333 11.333 0 0 1 22.666 0Z" stroke="#2E2F42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M34 20.333h2.667M27.333 20.333H30m1.333-4v5.333" stroke="#2E2F42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </symbol>
+  <!-- Diligence – diagram -->
+  <symbol id="icon-diagram" viewBox="0 0 64 64">
+    <rect x="8" y="8" width="48" height="48" rx="12" ry="12" fill="none"/>
+    <polyline points="18,40 26,30 34,34 44,22" />
+    <polyline points="40,22 44,22 44,26" />
+    <rect x="18" y="36" width="6" height="8" class="feature-icon-accent"/>
+    <rect x="28" y="32" width="6" height="12" class="feature-icon-accent"/>
+    <rect x="38" y="28" width="6" height="16" class="feature-icon-accent"/>
+  </symbol>
 
-    <!-- CLOCK -->
-    <symbol id="icon-clock" viewBox="0 0 64 64">
-      <circle cx="32" cy="32" r="21.333" stroke="#2E2F42" stroke-width="2" />
-      <path d="m32 18.667.111 13.222 11.556 6.444" stroke="#2E2F42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </symbol>
-
-    <!-- DIAGRAM -->
-    <symbol id="icon-diagram" viewBox="0 0 64 64">
-      <path d="M16.814 46A5.814 5.814 0 0 1 11 40.186V23.813A5.813 5.813 0 0 1 16.814 18h30.372A5.813 5.813 0 0 1 53 23.814v16.372A5.814 5.814 0 0 1 47.186 46H16.814Z" stroke="#2E2F42" stroke-width="2"/>
-      <path d="m21.172 39.978 8.57-10.221 8.576 6.13 10.73-12.697" stroke="#2E2F42" stroke-width="2" stroke-linejoin="round"/>
-      <path d="M21.172 34.261a1.217 1.217 0 1 0 0-2.434 1.217 1.217 0 0 0 0 2.434Zm8.566-5.024a1.217 1.217 0 1 0 0-2.435 1.217 1.217 0 0 0 0 2.435Zm8.574 6.332a1.217 1.217 0 1 0 0-2.434 1.217 1.217 0 0 0 0 2.434Zm10.735-13.935a1.217 1.217 0 1 0 0-2.435 1.217 1.217 0 0 0 0 2.435Z" fill="#2E2F42"/>
-    </symbol>
-
-  </defs>
+  <!-- Technologies – astronaut -->
+  <symbol id="icon-astronaut" viewBox="0 0 64 64">
+    <rect x="8" y="8" width="48" height="48" rx="12" ry="12" fill="none"/>
+    <circle cx="26" cy="24" r="7" />
+    <path d="M18 40c1.5-5 4.5-8 8-8s6.5 3 8 8" />
+    <circle cx="42" cy="20" r="3" class="feature-icon-accent"/>
+    <path d="M42 24v3" />
+    <path d="M39 20h-3" />
+    <path d="M45 20h3" />
+  </symbol>
 </svg>
