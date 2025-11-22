@@ -236,30 +236,9 @@ button {
   justify-content: center;
 }
 
+/* ВАЖЛИВО: не задаємо fill, щоб не ламати SVG-іконки */
 .feature-icon {
-  stroke: #2e2f42;
-  stroke-width: 2;
-  fill: none;
-}
-
-/* щоб сині акценти були помітні */
-.feature-icon-accent {
-  fill: var(--iris);
-}
-
-.feature-title {
-  margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy);
-}
-
-.feature-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  display: block;
 }
 
 /* ===== SECTION TITLES ===== */
