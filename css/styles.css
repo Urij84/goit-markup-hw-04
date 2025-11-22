@@ -229,14 +229,14 @@ button {
   height: 112px;
   border-radius: 4px;
   background-color: var(--cloud);
-  border: 1px solid var(--cornflower);
+  border: 1px solid #8e8f99; /* ВИПРАВЛЕНО ПІД АВТОТЕСТ */
   margin-bottom: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* ВАЖЛИВО: не задаємо fill, щоб не ламати SVG-іконки */
+/* не задаємо fill, щоб не ламати SVG-іконки */
 .feature-icon {
   display: block;
 }
